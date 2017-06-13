@@ -1,8 +1,8 @@
 FROM java
 
-WORKDIR /var/jenkins_home/workspace/MyHOME/ws/addition.jar
+WORKDIR /addition.jar/
 
-ADD . /var/jenkins_home/workspace/MyHOME/ws/addition.jar
+ADD . /addition.jar/
 
 EXPOSE 80
 
